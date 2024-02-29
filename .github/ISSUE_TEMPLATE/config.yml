@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Focco IoT Forum
+    url: https://github.com/focco-iot/Sattelite-Focco-IoT/discussions
+    about: Forum Focco IoT para conversar, dúvidas, ideias e FAQ.
