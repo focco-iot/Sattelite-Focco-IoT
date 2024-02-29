@@ -1,12 +1,12 @@
 name: Reportar um BUG
 description: Reporte um BUG para nosso time de desenvolvimento
-title: "[BUG] <title>"
+title: "[BUG] "
 labels: ["bug", "triage:not-checked"]
 body:
   - type: markdown
     attributes:
       value: |
-        Obrigado por preencher esse bug Reportar
+        Obrigado por preencher esse bug reporte.
         Nossa equipe de desenvolvimento irá analisar e corrigir o problema o mais rápido possível!
   - type: input
     id: contato
@@ -22,7 +22,6 @@ body:
       label: O que aconteceu?
       description: Conte-nos qual é o problema que você está enfrentando.
       placeholder: Nos diga o que vê!
-      value: Deu ruim!!
     validations:
       required: true
   - type: textarea
@@ -35,16 +34,16 @@ body:
     id: versao-hardware
     attributes:
       label: Versão de Hardware
-      description: Qual a versão do seu Sattelite?
-      placeholder: A versão do Sattelite pode ser encontrada na etiqueta, na parte de trás do Sattelite
+      description: Qual a versão do seu Sattelite? A versão do Sattelite pode ser encontrada na etiqueta, na parte de trás do Sattelite.
+      placeholder: v0.1.1
     validations:
       required: false
   - type: input
     id: versao-firmware
     attributes:
       label: Versão de Firmware
-      description: Qual a versão de firmware do seu Sattelite
-      placeholder: A versão de firmware pode ser encontrada na página web do Sattelite, na guia de "Informações" ou então no display, segurando o botão "INFO" por 5 segundos.
+      description: Qual a versão de firmware do seu Sattelite? A versão de firmware pode ser encontrada na página web do Sattelite, na guia de "Informações" ou então no display, segurando o botão "INFO" por 5 segundos.
+      placeholder: v1.0.0
     validations:
       required: false
   - type: checkboxes
