@@ -1,0 +1,74 @@
+name: Reportar um BUG
+description: Reporte um BUG para nosso time de desenvolvimento
+title: "[BUG] <title>"
+labels: ["bug", "triage:not-checked"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por preencher esse bug Reportar
+        Nossa equipe de desenvolvimento irá analisar e corrigir o problema o mais rápido possível!
+  - type: input
+    id: contato
+    attributes:
+      label: Informações de Contato
+      description: Como podemos entrar em contato com você caso precisarmos de mais informações?
+      placeholder: ex. email, telefone, WhatsApp
+    validations:
+      required: true
+  - type: textarea
+    id: acontecido
+    attributes:
+      label: O que aconteceu?
+      description: Conte-nos qual é o problema que você está enfrentando.
+      placeholder: Nos diga o que vê!
+      value: Deu ruim!!
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Qual é o comportamento esperado?
+      description: Nos diga o que você queria que acontecesse!
+      placeholder: Era pra ter funcionado assim...
+  - type: input
+    id: versao-hardware
+    attributes:
+      label: Versão de Hardware
+      description: Qual a versão do seu Sattelite?
+      placeholder: A versão do Sattelite pode ser encontrada na etiqueta, na parte de trás do Sattelite
+    validations:
+      required: false
+  - type: input
+    id: versao-firmware
+    attributes:
+      label: Versão de Firmware
+      description: Qual a versão de firmware do seu Sattelite
+      placeholder: A versão de firmware pode ser encontrada na página web do Sattelite, na guia de "Informações" ou então no display, segurando o botão "INFO" por 5 segundos.
+    validations:
+      required: false
+  - type: checkboxes
+    id: nao-achei
+    attributes:
+      label: Novo problema?
+      description: Você já confirmou se não existe um ISSUE já criado sobre o assunto?
+      options:
+        - label: Já verifiquei e não encontrei nada a respeito
+          required: true
+  - type: checkboxes
+    id: termos
+    attributes:
+      label: Código de Conduta
+      description: Ao enviar esse reporte, você concorda em seguir os [Termos de Conduta da Focco IoT](https://linkparaocodigodeconduta.com.br)
+      options:
+        - label: Eu concordo em seguir os Termos de Conduta da Focco IoT
+          required: true
+  - type: checkboxes
+    id: asdf
+    attributes:
+      label: LGPD
+      description: Ao enviar esse reporte, você concorda em compartilhar seus dados (Nome, informações de contato, etc.) com a Focco IoT para verificação e correção do problema relatado.
+      options:
+        - label: Eu concordo em fornecer meus dados
+          required: true
+  
