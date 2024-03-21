@@ -23,7 +23,7 @@ Esse repositório contém o firmware mais recente para a linha de Sattelites da 
 ## Equipamentos Suportados
 
 * **[Sattelite ESP32](https://linkparaoproduto)** - Focco IoT Sattelite Board ESP32
-* **[Interface DS18B20](https://linkparaoproduto)** - Focco IoT Interface Board 2 Sensores de Temperatura
+* **[Interface DS18B20](https://linkparaoproduto)** - Focco IoT Interface Board 4 Sensores de Temperatura do tipo "Probe"
 * **[Interface NAU7802](https://linkparaoproduto)** - Focco IoT Interface Board 2 Sensores de Peso (Balança)
 
 ## Atualização de Firmware
