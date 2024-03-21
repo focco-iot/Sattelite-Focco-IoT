@@ -5,6 +5,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/focco-iot/Sattelite-Focco-IoT)
 
 Documentação, especificações e Firmware para a linha de Sattelites da plataforma Focco IoT.
+
 Esse repositório contém o firmware mais recente para a linha de Sattelites da plataforma Focco IoT.
 
 ## Firmware mais recente
